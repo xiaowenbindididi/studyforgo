@@ -8,5 +8,6 @@ import (
 func main() {
 	var a int = 10
 	var b int = 20
-	fmt.Println
+	fmt.Println(calc.Add(a,b))
+	fmt.Println(calc.Sub(a,b))
 }
